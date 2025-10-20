@@ -54,16 +54,16 @@ const Agence = () => {
   return (
     <div>
       <div className='section1 text-black '>
-        <div ref={imageDivRef} className='absolute  h-80 w-60 top-30 left-112 rounded-3xl overflow-hidden'>
+        <div ref={imageDivRef} className='absolute  lg:h-[20vw] h-[30vw] lg:w-[15vw] w-[25vw] lg:top-30  left-[30vw] lg:left-112 lg:rounded-3xl rounded-xl overflow-hidden'>
           <img ref={imageRef} className='h-full w-full object-cover' src="https://k72.ca/images/teamMembers/Carl_480x640.jpg?w=480&h=640&fit=crop&s=f0a84706bc91a6f505e8ad35f520f0b7" alt="" />
         </div>
         <div className='relative'>
-          <div className=' font-[fontsecondary] pt-[50vh]'>
-            <h1 className='text-[20vw] uppercase text-center leading-[18vw]  '>Sixty-<br />seventh<br />
+          <div className=' font-[fontsecondary] lg:pt-[50vh] pt-[20vh]'>
+            <h1 className='lg:text-[20vw] text-[15vw] uppercase text-center lg:leading-[18vw] leading-[16vw] '>Sixty-<br />seventh<br />
               Twelve</h1>
           </div>
           <div className='pl-[40%] font-[fontprimary]'>
-            <p className='text-5xl  mr-20'>Our curiosity fuels our creativity.<br/> We remain humble and say no to big egos, even yours. A brand is alive. It has values, a personality, a story. If we forget that, we may make good numbers in the short term, but we'll kill it in the long term. That's why we're committed to providing<br /> perspective, to building influential brands.</p>
+            <p className='lg:text-5xl text-6xl mt-4 lg:mt-0 mr-20'>Our curiosity fuels our creativity.<br/> We remain humble and say no to big egos, even yours. A brand is alive. It has values, a personality, a story. If we forget that, we may make good numbers in the short term, but we'll kill it in the long term. That's why we're committed to providing<br /> perspective, to building influential brands.</p>
           </div>
         </div>
       </div>
